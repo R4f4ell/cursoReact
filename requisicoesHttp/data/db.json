@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "name": "capa de chuva",
+      "price": "50.50",
+      "id": 5
+    },
+    {
+      "name": "teclado",
+      "price": "110",
+      "id": 6
+    },
+    {
+      "name": "cadeira",
+      "price": "200",
+      "id": 7
+    },
+    {
+      "id": "1ac3",
+      "name": "df",
+      "price": "df"
+    },
+    {
+      "id": "88bb",
+      "name": "df",
+      "price": "df"
+    },
+    {
+      "id": "8344",
+      "name": "df",
+      "price": "df"
+    },
+    {
+      "id": "27ce",
+      "name": "tes",
+      "price": "24"
+    },
+    {
+      "id": "0d89",
+      "name": "tes",
+      "price": "24"
+    },
+    {
+      "id": "f637",
+      "name": "tes",
+      "price": "24"
+    },
+    {
+      "id": "2186",
+      "name": "df",
+      "price": "2"
+    },
+    {
+      "id": "9e01",
+      "name": "df",
+      "price": "2"
+    }
+  ]
+}
