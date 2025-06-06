@@ -9,10 +9,19 @@ import Contact from './routes/Contact.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
 
 // Configurando Router
-import{ createBrowserRouter, RouterProvider, Route} from "react-router-dom"
+import{ createBrowserRouter, RouterProvider, Navigate} from "react-router-dom"
 
 // Componente base
 import Home from './routes/Home.jsx'
+
+// Rota dinamica
+import Products from './routes/Products.jsx'
+
+// Rota aninhadas
+import Info from './routes/Info.jsx'
+
+// Search params
+import Search from './routes/Search.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,7 +37,27 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
-      }
+      },
+      // Rota dinâmica 
+      {
+        path: "products/:id",
+        element: <Products />,
+      },
+      // Rota aninhadas
+      {
+        path: "products/:id/info",
+        element: <Info />,
+      },
+      // Search
+      {
+        path: "search",
+        element: <Search />,
+      },
+      // redirect
+      {
+        path: "teste",
+        element: <Navigate to="/" />,
+      },
     ]
   },
   // {
